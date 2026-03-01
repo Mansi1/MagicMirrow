@@ -16,13 +16,5 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
 echo "--- Step 4: clone project MagicMirror ---"
 git clone https://github.com/MagicMirrorOrg/MagicMirror.git ~/MagicMirror
 
-# Using the community installer for Node/Electron management
-echo "--- Step 4: Configuring Server-Only Mode ---"
-cd ~/MagicMirror/config
-cp config.js.sample config.js
-# Change address to 0.0.0.0 and clear whitelist
-sed -i 's/address: "localhost",/address: "0.0.0.0",/' config.js
-sed -i 's/ipWhitelist: \[[^]]*\]/ipWhitelist: []/' config.js
-
-echo "--- FINISHED ---"
-echo "To start your mirror in server mode, run: cd ~/MagicMirror && node serveronly"
+echo "--- Step 5: install x server for graphix"
+sudo apt install --no-install-recommends xserver-xorg xinit x11-xserver-utils chromium -y

@@ -8,4 +8,4 @@ xset -dpms
 matchbox-window-manager -use_titlebar no &
 
 # Start Chromium in Kiosk Mode
-chromium-browser --noerrdialogs --disable-infobars --kiosk http://localhost:8080
+chromium --noerrdialogs --disable-infobars --kiosk http://localhost:8080

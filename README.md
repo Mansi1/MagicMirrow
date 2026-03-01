@@ -27,3 +27,6 @@ make script runnable execute this command
 chmod +x setup_mirror.sh
 ./setup_mirror.sh
 ```
+
+chmod +x ~/magic-mirror-script/start_kiosk.sh
+xinit ~/magic-mirror-script/start_kiosk.sh
