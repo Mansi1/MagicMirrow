@@ -17,4 +17,5 @@ make script runnable execute this command
 
 ```bash
 chmod +x setup_mirror.sh
+./setup_mirror.sh
 ```
