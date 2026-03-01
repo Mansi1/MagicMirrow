@@ -13,6 +13,14 @@ Given the hardware constraints of the Zero 2 W (512MB RAM), this project is opti
 - **Node.js Version:** 18.x (Recommended for stability)
 - **Mode:** Server-only with a lightweight X-server for display.
 
+### Start to work
+
+install git version controll to get our script via
+
+```bash
+sudo apt install git
+```
+
 make script runnable execute this command
 
 ```bash
